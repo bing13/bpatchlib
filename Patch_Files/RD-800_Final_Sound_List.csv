@@ -1,4 +1,4 @@
-num	section	category	name	bank_MSB	bank_LSB	Patch
+num	section	category	name	bank__MSB	bank__LSB	Patch
 1	CONCERT	CONCERT PIANO	Concert Grand (*1) 	84	0	1
 2	CONCERT	CONCERT PIANO	Bright Concert (*1) 	84	0	2
 3	CONCERT	CONCERT PIANO	Mellow Concert (*1) 	84	0	3

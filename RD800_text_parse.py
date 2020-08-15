@@ -1,9 +1,12 @@
 # RD800_text_parse.py
 # 8/9/2020
+#
+#
 ##############################
 
-''' ingest hand-wrought sound list, clean, load. 
-    prep to generate .ins file. '''
+''' ingest hand-wrought sound list, clean. 
+    generate simple text output file that can then be ingested
+    by the patch librarian. '''
 
 
 infile='RD-800_Sound_List/Best_Raw_Text_04a.txt'

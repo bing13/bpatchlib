@@ -1,4 +1,4 @@
-num	section	category	name	bank_MSB	bank_LSB	Patch
+num	section	category	name	bank__MSB	bank__LSB	Patch
 1	PIANO		Acou Piano 1			1
 2	PIANO		Acou Piano 2			2
 3	PIANO		Acou Piano 3			3

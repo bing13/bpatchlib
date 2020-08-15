@@ -1,4 +1,4 @@
-num	section	category	name	bank_MSB	bank_LSB	Patch
+num	section	category	name	bank__MSB	bank__LSB	Patch
 1	NONE	NONE	Stereo Piano			0
 2	NONE	NONE	Hall Strings			1
 3	NONE	NONE	InChoirIrie			2
