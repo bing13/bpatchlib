@@ -1,0 +1,64 @@
+#https://pysimplegui.readthedocs.io/
+import PySimpleGUI as sg
+import csv
+
+def read_rd800():
+    inf = 'RD-800_Sound_List/RD-800_Final_Sound_List.csv'
+    voice = {}
+    pnames = []
+    with open(inf, 'r') as INF:
+        ireader = csv.reader(INF, delimiter='\t')
+        #(num, section, cat, name, msb, lsb, patch)
+        for row  in ireader:
+            if row[0] != 'num':
+                # let's keep an list of patch names in the order they were read in
+                #print(row[0],row[3])
+                pnames.append(row[3].strip())
+                voice[row[3].strip()]={ 'name':row[3], 'num':row[0], 'section':row[1], \
+                                        'category':row[2],'msb':row[4],'lsb':row[5],'patch':row[6].strip() }
+    return voice,pnames
+
+#voice['patchname']['num', 'section', 'category', 'msb', 'lsb', 'patch']
+
+##############################################################
+rd800v, rd800p = read_rd800()  #v = voice dict, p=patch list
+#sg.theme('DarkAmber')   # Add a touch of color
+# All the stuff inside your window.
+layout = [  [sg.Text('Patch Librarian v.0.1')],
+            [sg.Radio('RD-800', "Module_Selector", default=True),
+             sg.Radio('Proteus 1', "Module_Selector"),
+             sg.Radio('MT-32', "Module_Selector")],
+            [sg.Text('Num',size=(5,1)), sg.InputText(key='num',size=(5,1)),
+             sg.Text('Section',size=(10,1)), sg.InputText(key='section',size=(20,1)),
+             sg.Text('Category',size=(10,1)), sg.InputText(key='category',size=(20,1)) ],
+
+            [sg.Text('MSB',size=(5,1)), sg.InputText(key='msb',size=(5,1)),
+             sg.Text('LSB',size=(5,1)), sg.InputText(key='lsb',size=(5,1)),
+             sg.Text('Patch',size=(5,1)), sg.InputText(key='patch',size=(5,1))
+            ],
+
+            
+            [sg.Listbox(values=rd800p, size=(80, 20),enable_events=True,key='voice' )],
+            
+            [sg.Button('Ok'), sg.Button('Cancel')] ]
+
+# Create the Window
+window = sg.Window('Window Title', layout)
+# Event Loop to process "events" and get the "values" of the inputs
+while True:
+    event, values = window.read()
+    if event == sg.WIN_CLOSED or event == 'Cancel': # if user closes window or clicks cancel
+        break
+    else:
+        #window['Row_2'].update(values['Voice'][0])
+        this_v = values['voice'][0]
+        display_parms = "msb:%s  lsb:%s  patch:%s" % (rd800v[this_v]['msb'], rd800v[this_v]['lsb'], rd800v[this_v]['patch'])
+        window['msb'].update(rd800v[this_v]['msb'])
+        window['lsb'].update(rd800v[this_v]['lsb'])
+        window['patch'].update(rd800v[this_v]['patch'])
+        window['num'].update(rd800v[this_v]['num'])
+        window['section'].update(rd800v[this_v]['section'])
+        window['category'].update(rd800v[this_v]['category'])        
+        print('Raw:',values)
+
+window.close()

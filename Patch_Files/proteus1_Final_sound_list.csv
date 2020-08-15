@@ -1,0 +1,129 @@
+num	section	category	name	bank_MSB	bank_LSB	Patch
+1	NONE	NONE	Stereo Piano			0
+2	NONE	NONE	Hall Strings			1
+3	NONE	NONE	InChoirIrie			2
+4	NONE	NONE	BigCityBrass			3
+5	NONE	NONE	Stereo Sax			4
+6	NONE	NONE	Acoustic Gtr			5
+7	NONE	NONE	Modern Gtr			6
+8	NONE	NONE	Thunder Bass			7
+9	NONE	NONE	MiniMoogBass			8
+10	NONE	NONE	B3 Mod ->Lesl			9
+11	NONE	NONE	Phantazia			10
+12	NONE	NONE	ZoundTrax			11
+13	NONE	NONE	Vibe n Me			12
+14	NONE	NONE	Tiki Threat			13
+15	NONE	NONE	Rock Drums 1			14
+16	NONE	NONE	Metal Vapor			15
+17	NONE	NONE	Heaven			16
+18	NONE	NONE	Verb Flute			17
+19	NONE	NONE	El. Piano			18
+20	NONE	NONE	Fr. Horn Sect			19
+21	NONE	NONE	Velcty Falls			20
+22	NONE	NONE	Stereo Mutes			21
+23	NONE	NONE	StoneBs&Hrns			22
+24	NONE	NONE	Slap/PopBass			23
+25	NONE	NONE	Rap Bass			24
+26	NONE	NONE	Special FX 1			25
+27	NONE	NONE	Harmonic Syn			26
+28	NONE	NONE	Beyond FM			27
+29	NONE	NONE	Kyoto Forest			28
+30	NONE	NONE	Balinesia			29
+31	NONE	NONE	Latin Drums			30
+32	NONE	NONE	Wind Chimes			31
+33	NONE	NONE	Harpsikord			32
+34	NONE	NONE	String Orch.			33
+35	NONE	NONE	Human Voices			34
+36	NONE	NONE	Baritone Sax			35
+37	NONE	NONE	Solo Trumpet			36
+38	NONE	NONE	12 String *			37
+39	NONE	NONE	Modern Harp			38
+40	NONE	NONE	Str.Bs/Piano			39
+41	NONE	NONE	Mythical Pad			40
+42	NONE	NONE	PianoBell			41
+43	NONE	NONE	Noh Way!			42
+44	NONE	NONE	Empyrean			43
+45	NONE	NONE	Glocken			44
+46	NONE	NONE	Wide Marimba			45
+47	NONE	NONE	Latin Perc.			46
+48	NONE	NONE	Space Bk.Gtr			47
+49	NONE	NONE	Grand Piano			48
+50	NONE	NONE	FlangeString			49
+51	NONE	NONE	White Veil			50
+52	NONE	NONE	Dark World			51
+53	NONE	NONE	Miles Solos			52
+54	NONE	NONE	SoloTrombone			53
+55	NONE	NONE	Xprsiv El.Gtr			54
+56	NONE	NONE	SpaceBassPad			55
+57	NONE	NONE	Dune			56
+58	NONE	NONE	RB's Wine			57
+59	NONE	NONE	Octave Choir			58
+60	NONE	NONE	Gitano			59
+61	NONE	NONE	ThaiBathHse.			60
+62	NONE	NONE	Medicine Drum			61
+63	NONE	NONE	Radical Drum			62
+64	NONE	NONE	Mltphn Arp 9			63
+65	NONE	NONE	FMStylePiano			64
+66	NONE	NONE	Isham Strings			65
+67	NONE	NONE	We Ate Flangers			66
+68	NONE	NONE	Space Clavier			67
+69	NONE	NONE	Hard Trmp Am			68
+70	NONE	NONE	Ball Game			69
+71	NONE	NONE	Clean Strat			70
+72	NONE	NONE	NozeBass/Pad			71
+73	NONE	NONE	Wide Neck			72
+74	NONE	NONE	Space Horn			73
+75	NONE	NONE	Blue Ice			74
+76	NONE	NONE	EmberedTines			75
+77	NONE	NONE	Odd Vibes			76
+78	NONE	NONE	Bright Steel			77
+79	NONE	NONE	Native Power *			78
+80	NONE	NONE	Insects			79
+81	NONE	NONE	VibrantPiano			80
+82	NONE	NONE	Emperor			81
+83	NONE	NONE	NoiseFree LA			82
+84	NONE	NONE	Orch. Brass			83
+85	NONE	NONE	Lo Oct Bones			84
+86	NONE	NONE	Synthibell			85
+87	NONE	NONE	SpaceSteel			86
+88	NONE	NONE	Jet **			87
+89	NONE	NONE	Jet  **			88
+90	NONE	NONE	SquarishLead			89
+91	NONE	NONE	Synth String			90
+92	NONE	NONE	Space Trmpt			91
+93	NONE	NONE	Metal Throat			92
+94	NONE	NONE	Light Mallet			93
+95	NONE	NONE	Congablock			94
+96	NONE	NONE	Hold&Sample			95
+97	NONE	NONE	Piano Drama			96
+98	NONE	NONE	Punctuate			97
+99	NONE	NONE	Lunar Window			98
+100	NONE	NONE	Reedy Keys			99
+101	NONE	NONE	String Swell			100
+102	NONE	NONE	Jingle Pad			101
+103	NONE	NONE	Solo Lead			102
+104	NONE	NONE	Buzzy Frets			103
+105	NONE	NONE	Bass & Synth *			104
+106	NONE	NONE	Gillectro			105
+107	NONE	NONE	Pop Pad			106
+108	NONE	NONE	BanJovi			107
+109	NONE	NONE	Malletumba			108
+110	NONE	NONE	SlipperyBass			109
+111	NONE	NONE	Hall2Strgs**			110
+112	NONE	NONE	Hall2Link**			111
+113	NONE	NONE	WinstonGrand			112
+114	NONE	NONE	STRings			113
+115	NONE	NONE	Sharp Edge			114
+116	NONE	NONE	Uboe			115
+117	NONE	NONE	Vibes/Choir *			116
+118	NONE	NONE	Solo Synth 3			117
+119	NONE	NONE	Rock Gitaro			118
+120	NONE	NONE	Animal 1 **			119
+121	NONE	NONE	Animal **			120
+122	NONE	NONE	Bed Tine			121
+123	NONE	NONE	Mr Minister			122
+124	NONE	NONE	Bone Face			123
+125	NONE	NONE	Tremolo Vibe			124
+126	NONE	NONE	Dulcimer			125
+127	NONE	NONE	Block Head			126
+128	NONE	NONE	Barber Pole			127
