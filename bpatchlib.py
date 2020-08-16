@@ -112,8 +112,8 @@ layout = [
      sg.Text('Patch',size=(5,1),text_color='black'), sg.Text(key='patch',size=(5,1)) ],
     
     [sg.Text('Search',size=(8,1),text_color='black'),
-     sg.InputText(key='searchx',size=(15,1),enable_events=True),
-     sg.Button('vsearch'), sg.Button('vclear')],
+     sg.InputText(key='searchx',size=(15,1),enable_events=True)],
+
     
     [sg.Listbox(values=dvoice[1], size=(40, 30),enable_events=True,key='voice' )],
     [sg.Button('Ok'), sg.Button('Cancel') ] ]
@@ -133,12 +133,10 @@ while True:
     else:
         if event == 'voice':
             this_v = values['voice'][0]
-        elif event in ['vsearch','searchx']:
+        elif event in ['searchx']:
             searchx = values['searchx']
             filtered_patches = [ x for x in dvoice[1] if searchx.lower() in x.lower() ]
             window['voice'].update(filtered_patches)
-        elif event == 'vclear':
-            window['voice'].update(dvoice[1])
         elif event == 'rdkey':
             dvoice = rd800_patches
             this_v = 'Concert Grand (*1)'
