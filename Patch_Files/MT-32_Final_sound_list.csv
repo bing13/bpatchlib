@@ -1,129 +1,129 @@
-num	section	category	name	bank__MSB	bank__LSB	Patch
-1	PIANO		Acou Piano 1			1
-2	PIANO		Acou Piano 2			2
-3	PIANO		Acou Piano 3			3
-4	PIANO		Elec Piano 1			4
-5	PIANO		Elec Piano 2			5
-6	PIANO		Elec Piano 3			6
-7	PIANO		Elec Piano 4			7
-8	PIANO		Honkytonk			8
-9	ORGAN		Elec Org 1			9
-10	ORGAN		Elec Org 2			10
-11	ORGAN		Elec Org 3			11
-12	ORGAN		Elec Org 4			12
-13	ORGAN		Pipe Org 1			13
-14	ORGAN		Pipe Org 2			14
-15	ORGAN		Pipe Org 3			15
-16	KEYBOARD		Accordion			16
-17	KEYBOARD		Harpsi 1			17
-18	KEYBOARD		Harpsi 2			18
-19	KEYBOARD		Harpsi 3			19
-20	KEYBOARD		Clavi 1			20
-21	KEYBOARD		Clavi 2			21
-22	KEYBOARD		Clavi 3			22
-23	KEYBOARD		Celesta 1			23
-24	KEYBOARD		Celesta 2			24
-25	S-BRASS		Syn Brass 1			25
-26	S-BRASS		Syn Brass 2			26
-27	S-BRASS		Syn Brass 3			27
-28	S-BRASS		Syn Brass 4			28
-29	SYNBASS		Syn Bass 1			29
-30	SYNBASS		Syn Bass 2			30
-31	SYNBASS		Syn Bass 3			31
-32	SYNBASS		Syn Bass 4			32
-33	SYNTH-1		Fantasy			33
-34	SYNTH-1		Harmo Pan			34
-35	SYNTH-1		Chorale			35
-36	SYNTH-1		Glasses			36
-37	SYNTH-1		Soundtrack			37
-38	SYNTH-1		Atmosphere			38
-39	SYNTH-1		Warm Bell			39
-40	SYNTH-1		Funny Vox			40
-41	SYNTH-2		Echo Bell			41
-42	SYNTH-2		Ice Rain			42
-43	SYNTH-2		Oboe 2001			43
-44	SYNTH-2		Echo Pan			44
-45	SYNTH-2		Doctor Solo			45
-46	SYNTH-2		School Daze			46
-47	SYNTH-2		Bellsinger			47
-48	SYNTH-2		Square Wave			48
-49	STRINGS		Str Sect 1			49
-50	STRINGS		Str Sect 2			50
-51	STRINGS		Str Sect 3			51
-52	STRINGS		Pizzicato			52
-53	STRINGS		Violin 1			53
-54	STRINGS		Violin 2			54
-55	STRINGS		Cello 1			55
-56	STRINGS		Cello 2			56
-57	STRINGS		Contrabass			57
-58	STRINGS		Harp 1			58
-59	STRINGS		Harp 2			59
-60	GUITAR		Guitar 1			60
-61	GUITAR		Guitar 2			61
-62	GUITAR		Elec Gtr 1			62
-63	GUITAR		Elec Gtr 2			63
-64	GUITAR		Sitar			64
-65	BASS		Acou Bass 1			65
-66	BASS		Acou Bass 2			66
-67	BASS		Elec Bass 1			67
-68	BASS		Elec Bass 2			68
-69	BASS		Slap Bass 1			69
-70	BASS		Slap Bass 2			70
-71	BASS		Fretless 1			71
-72	BASS		Fretless 2			72
-73	WIND-1		Flute 1			73
-74	WIND-1		Flute 2			74
-75	WIND-1		Piccolo 1			75
-76	WIND-1		Piccolo 2			76
-77	WIND-1		Recorder			77
-78	WIND-1		Pan Pipes			78
-79	WIND-2		Sax 1			79
-80	WIND-2		Sax 2			80
-81	WIND-2		Sax 3			81
-82	WIND-2		Sax 4			82
-83	WIND-2		Clarinet 1			83
-84	WIND-2		Clarinet 2			84
-85	WIND-2		Oboe			85
-86	WIND-2		Engl Horn			86
-87	WIND-2		Bassoon			87
-88	WIND-2		Harmonica			88
-89	BRASS		Trumpet 1			89
-90	BRASS		Trumpet 2			90
-91	BRASS		Trombone 1			91
-92	BRASS		Trombone 2			92
-93	BRASS		Fr Horn 1			93
-94	BRASS		Fr Horn 2			94
-95	BRASS		Tuba			95
-96	BRASS		Brs Sect 1			96
-97	BRASS		Brs Sect 2			97
-98	MALLET		Vibe 1			98
-99	MALLET		Vibe 2			99
-100	MALLET		Syn Mallet			100
-101	MALLET		Windbell			101
-102	MALLET		Glock			102
-103	MALLET		Tube Bell			103
-104	MALLET		Xylophone			104
-105	MALLET		Marimba			105
-106	SPECIAL		Koto			106
-107	SPECIAL		Sho			107
-108	SPECIAL		Shakuhachi			108
-109	SPECIAL		Whistle 1			109
-110	SPECIAL		Whistle 2			110
-111	SPECIAL		Bottleblow			111
-112	SPECIAL		Breathpipe			112
-113	PERCUSSION		Timpani			113
-114	PERCUSSION		Melodic Tom			114
-115	PERCUSSION		Deep Snare			115
-116	PERCUSSION		Elec Perc 1			116
-117	PERCUSSION		Elec Perc 2			117
-118	PERCUSSION		Taiko			118
-119	PERCUSSION		Taiko Rim			119
-120	PERCUSSION		Cymbal			120
-121	PERCUSSION		Castanets			121
-122	PERCUSSION		Triangle			122
-123	EFFECTS		Orche Hit			123
-124	EFFECTS		Telephone			124
-125	EFFECTS		Bird Tweet			125
-126	EFFECTS		One Note Jam			126
-127	EFFECTS		Water Bell			127
-128	EFFECTS		Jungle Tune			128
+num	section	category	name	bank_MSB	bank_LSB	Patch
+1	PIANO		Acou Piano 1			0
+2	PIANO		Acou Piano 2			1
+3	PIANO		Acou Piano 3			2
+4	PIANO		Elec Piano 1			3
+5	PIANO		Elec Piano 2			4
+6	PIANO		Elec Piano 3			5
+7	PIANO		Elec Piano 4			6
+8	PIANO		Honkytonk			7
+9	ORGAN		Elec Org 1			8
+10	ORGAN		Elec Org 2			9
+11	ORGAN		Elec Org 3			10
+12	ORGAN		Elec Org 4			11
+13	ORGAN		Pipe Org 1			12
+14	ORGAN		Pipe Org 2			13
+15	ORGAN		Pipe Org 3			14
+16	KEYBOARD		Accordion			15
+17	KEYBOARD		Harpsi 1			16
+18	KEYBOARD		Harpsi 2			17
+19	KEYBOARD		Harpsi 3			18
+20	KEYBOARD		Clavi 1			19
+21	KEYBOARD		Clavi 2			20
+22	KEYBOARD		Clavi 3			21
+23	KEYBOARD		Celesta 1			22
+24	KEYBOARD		Celesta 2			23
+25	S-BRASS		Syn Brass 1			24
+26	S-BRASS		Syn Brass 2			25
+27	S-BRASS		Syn Brass 3			26
+28	S-BRASS		Syn Brass 4			27
+29	SYNBASS		Syn Bass 1			28
+30	SYNBASS		Syn Bass 2			29
+31	SYNBASS		Syn Bass 3			30
+32	SYNBASS		Syn Bass 4			31
+33	SYNTH-1		Fantasy			32
+34	SYNTH-1		Harmo Pan			33
+35	SYNTH-1		Chorale			34
+36	SYNTH-1		Glasses			35
+37	SYNTH-1		Soundtrack			36
+38	SYNTH-1		Atmosphere			37
+39	SYNTH-1		Warm Bell			38
+40	SYNTH-1		Funny Vox			39
+41	SYNTH-2		Echo Bell			40
+42	SYNTH-2		Ice Rain			41
+43	SYNTH-2		Oboe 2001			42
+44	SYNTH-2		Echo Pan			43
+45	SYNTH-2		Doctor Solo			44
+46	SYNTH-2		School Daze			45
+47	SYNTH-2		Bellsinger			46
+48	SYNTH-2		Square Wave			47
+49	STRINGS		Str Sect 1			48
+50	STRINGS		Str Sect 2			49
+51	STRINGS		Str Sect 3			50
+52	STRINGS		Pizzicato			51
+53	STRINGS		Violin 1			52
+54	STRINGS		Violin 2			53
+55	STRINGS		Cello 1			54
+56	STRINGS		Cello 2			55
+57	STRINGS		Contrabass			56
+58	STRINGS		Harp 1			57
+59	STRINGS		Harp 2			58
+60	GUITAR		Guitar 1			59
+61	GUITAR		Guitar 2			60
+62	GUITAR		Elec Gtr 1			61
+63	GUITAR		Elec Gtr 2			62
+64	GUITAR		Sitar			63
+65	BASS		Acou Bass 1			64
+66	BASS		Acou Bass 2			65
+67	BASS		Elec Bass 1			66
+68	BASS		Elec Bass 2			67
+69	BASS		Slap Bass 1			68
+70	BASS		Slap Bass 2			69
+71	BASS		Fretless 1			70
+72	BASS		Fretless 2			71
+73	WIND-1		Flute 1			72
+74	WIND-1		Flute 2			73
+75	WIND-1		Piccolo 1			74
+76	WIND-1		Piccolo 2			75
+77	WIND-1		Recorder			76
+78	WIND-1		Pan Pipes			77
+79	WIND-2		Sax 1			78
+80	WIND-2		Sax 2			79
+81	WIND-2		Sax 3			80
+82	WIND-2		Sax 4			81
+83	WIND-2		Clarinet 1			82
+84	WIND-2		Clarinet 2			83
+85	WIND-2		Oboe			84
+86	WIND-2		Engl Horn			85
+87	WIND-2		Bassoon			86
+88	WIND-2		Harmonica			87
+89	BRASS		Trumpet 1			88
+90	BRASS		Trumpet 2			89
+91	BRASS		Trombone 1			90
+92	BRASS		Trombone 2			91
+93	BRASS		Fr Horn 1			92
+94	BRASS		Fr Horn 2			93
+95	BRASS		Tuba			94
+96	BRASS		Brs Sect 1			95
+97	BRASS		Brs Sect 2			96
+98	MALLET		Vibe 1			97
+99	MALLET		Vibe 2			98
+100	MALLET		Syn Mallet			99
+101	MALLET		Windbell			100
+102	MALLET		Glock			101
+103	MALLET		Tube Bell			102
+104	MALLET		Xylophone			103
+105	MALLET		Marimba			104
+106	SPECIAL		Koto			105
+107	SPECIAL		Sho			106
+108	SPECIAL		Shakuhachi			107
+109	SPECIAL		Whistle 1			108
+110	SPECIAL		Whistle 2			109
+111	SPECIAL		Bottleblow			110
+112	SPECIAL		Breathpipe			111
+113	PERCUSSION		Timpani			112
+114	PERCUSSION		Melodic Tom			113
+115	PERCUSSION		Deep Snare			114
+116	PERCUSSION		Elec Perc 1			115
+117	PERCUSSION		Elec Perc 2			116
+118	PERCUSSION		Taiko			117
+119	PERCUSSION		Taiko Rim			118
+120	PERCUSSION		Cymbal			119
+121	PERCUSSION		Castanets			120
+122	PERCUSSION		Triangle			121
+123	EFFECTS		Orche Hit			122
+124	EFFECTS		Telephone			123
+125	EFFECTS		Bird Tweet			124
+126	EFFECTS		One Note Jam			125
+127	EFFECTS		Water Bell			126
+128	EFFECTS		Jungle Tune			127
