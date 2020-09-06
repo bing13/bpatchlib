@@ -7,7 +7,7 @@ import sys, pause, threading
 
 
 AUD_FILES_DIR = '/home/bernard/Documents/python/PySimpleGUI/bpatchlib/Sound_Files/'
-AUDITION_FILES = ['bass_cool.mid','lead.mid','lead-spain.mid','texas_ideal.mid','Waltz_vamp.mid']
+AUDITION_FILES = ['bass_cool.mid','lead-spain.mid','Waltz_vamp.mid']
 PATCHDIR = '/home/bernard/Documents/python/PySimpleGUI/bpatchlib/Patch_Files/'
 def read_audition_files():
     auds = {'simple':''}
@@ -95,6 +95,11 @@ def play_some_notes(portx, channel, dv, aud,auditions ):
         for msg in auditions[aud].play():            
             portx.send(msg)
 
+
+def set_volume(portx,channels,vol):
+    for c in channels:
+        portx.send(Message('control_change',channel=c,control=7,value=vol))
+    return
         
 ###################################################################################
 ## port setup
@@ -139,7 +144,7 @@ layout = [
      sg.Combo(list(auditions.keys()),key='auditionx',size=(15,1),enable_events=True)], 
     
     [sg.Listbox(values=dvoice[1], size=(40, 30),enable_events=True, key='voice' )],
-    [sg.Button('Exit') ] ]
+    [sg.Button('Normalize Volume'), sg.Button('Exit') ] ]
 
 # Create the Window
 window = sg.Window('Patch Librarian v.0.2', layout)
@@ -178,6 +183,11 @@ while True:
             window['voice'].update(dvoice[1])
         elif event == 'auditionx':
             aud = values['auditionx']
+        elif event == 'Normalize Volume':
+            set_volume(rd_port,list(range(0,16)),100)
+            set_volume(prot_port,list(range(0,16)),100)            
+            set_volume(mt_port,list(range(0,9)),102)
+            set_volume(mt_port,[9],102)
         else:
             print("EVENT UNKNOWN........%s " % event)
             
@@ -199,9 +209,15 @@ while True:
 
 window.close()
 
-rd_port.reset()
-rd_port.close()
-prot_port.reset()
-prot_port.close()
-mt_port.reset()
-mt_port.close()
+print("Exiting .........................................")
+
+for p in [rd_port,prot_port,mt_port]:
+    p.reset()
+    p.close()
+
+#example of sending volume controller value
+# mt32=mido.open_output(ports[3])
+# mt32.send(Message('control_change',channel=3,control=7,value=110))
+#
+
+print("Done.")
